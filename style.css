@@ -1,37 +1,42 @@
-* {
+/* Reset */
+*{
+    /* Alternative box model */
     box-sizing: border-box;
 
+    /* Reset padding and margin on all elements */
     padding: 0;
     margin: 0;
 }
 
-html {
+html{
     font-size: 18px;
 }
 
-body {
-    font-family: 'Popping', sans-serif;
-    line-height: 1.55;
+body{
+    font-family: 'Poppins', sans-serif;
     color: rgb(60, 58, 71);
 }
 
-h1 {
-    font-size: 1.5rem;
+h1{
+    font-size: 1rem;
     font-weight: 700;
 }
 
-h2 {
-    font-size: 1rem;
+h2{
+    font-size: 0.7rem;
     font-weight: 400;
 }
 
-.attribution {
-    font-size: 0.7rem;
+.content{
+    text-align: center;
+    margin-top: 10rem;
 }
 
-body {
-    width: 30%;
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
+#qr-code{
+    width: 300px;
+}
+
+h1, h2{
+    width: 300px;
+    text-align: center;
 }
